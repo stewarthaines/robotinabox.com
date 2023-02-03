@@ -1,0 +1,74 @@
+/* grey box layout for development */
+/*
+#content { background-color: #aaa; }
+#logo { background-color: #ccc; }
+#footer { background-color: #ddd;}
+*/
+body {
+  background: white;
+  font-family: Helvetica, Arial, sans-serif;
+  letter-spacing: 0.13em;
+  width: 35em;
+  margin: 4em auto;
+  text-align: center;
+}
+h1 {
+  font-size: 150%;
+  font-weight: bold;
+  text-align: center;
+  line-height: 1.5em;
+  margin-top: 1em;
+}
+p {
+  padding-bottom: 1em;
+}
+#heading {
+  font-size: 150%;
+  text-align: center;
+  margin-bottom: 4.5em;
+}
+#content {
+/*  text-align: left;*/
+}
+#logo {
+  text-align: center;
+  padding: 2em;
+  margin-bottom: 5em;
+}
+#footer {
+  color: #666;
+  text-align: left;
+  font-size: 50%;
+  letter-spacing: 0.11em;
+  margin-top: 10em;
+}
+#coming {
+  float: right;
+}
+a {
+  text-decoration: none;
+}
+#links {
+  float: right;
+}
+/*
+     FILE ARCHIVED ON 06:39:11 Apr 12, 2022 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:22:14 Feb 03, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 207.208
+  exclusion.robots: 0.104
+  exclusion.robots.policy: 0.096
+  cdx.remote: 0.065
+  esindex: 0.008
+  LoadShardBlock: 131.317 (3)
+  PetaboxLoader3.datanode: 54.329 (4)
+  CDXLines.iter: 19.474 (3)
+  PetaboxLoader3.resolve: 110.656 (3)
+  load_resource: 63.782
+*/
