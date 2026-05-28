@@ -1,0 +1,167 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="The simplest way to create Semantic, Scripted EPUB books." />
+    <title>SEED — Simple EPUB Editor</title>
+    <link rel="icon" href="/favicon.png" type="image/png" />
+  </head>
+  <body>
+    <div id="content">
+      <div id="logo">
+        <img src="/img/RobotInaBox-trademark_logo.png" alt="RobotInaBox" />
+      </div>
+      <h1>SEED</h1>
+      <p class="tagline">Simple EPUB Editor</p>
+      <p class="description">The simplest way to create Semantic, Scripted EPUB books.</p>
+
+      <div class="features">
+        <div class="feature">
+          <h2>Plain Text Input</h2>
+          <p>Write in Markdown, Asciidoc, Textile, Org Mode, LaTeX, or Fountain. No markup learning curve.</p>
+        </div>
+        <div class="feature">
+          <h2>Valid EPUB 3.2</h2>
+          <p>Generates standards-compliant EPUB files with proper structure and accessibility metadata.</p>
+        </div>
+        <div class="feature">
+          <h2>No Installation</h2>
+          <p>Runs entirely in your browser. Works offline. Nothing to install or update.</p>
+        </div>
+      </div>
+
+      <div class="actions">
+        <a href="/seed/" class="btn-primary">Launch SEED</a>
+        <a href="/docs/introduction/" class="btn-secondary">Read the docs</a>
+      </div>
+
+      <footer>
+        <p>© 2025 <a href="https://robotinabox.com">RobotInaBox</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
+
+<style>
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Helvetica, Arial, sans-serif;
+    background: #fff;
+    color: #111;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #content {
+    max-width: 40em;
+    width: 100%;
+    padding: 3em 1.5em;
+    text-align: center;
+  }
+
+  #logo img {
+    width: 8em;
+    margin-bottom: 2em;
+  }
+
+  h1 {
+    font-size: 2.5em;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.2em;
+  }
+
+  .tagline {
+    font-size: 1em;
+    letter-spacing: 0.15em;
+    color: #666;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+  }
+
+  .description {
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #444;
+    margin-bottom: 3em;
+  }
+
+  .features {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(11em, 1fr));
+    gap: 1.5em;
+    margin-bottom: 3em;
+    text-align: left;
+  }
+
+  .feature h2 {
+    font-size: 0.9em;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    margin-bottom: 0.5em;
+  }
+
+  .feature p {
+    font-size: 0.85em;
+    line-height: 1.5;
+    color: #555;
+  }
+
+  .actions {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 4em;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .btn-primary {
+    background: #111;
+    color: #fff;
+    padding: 0.75em 2em;
+    border-radius: 2em;
+    font-size: 0.9em;
+    letter-spacing: 0.08em;
+  }
+
+  .btn-primary:hover {
+    background: #333;
+  }
+
+  .btn-secondary {
+    color: #111;
+    padding: 0.75em 2em;
+    border: 1px solid #ccc;
+    border-radius: 2em;
+    font-size: 0.9em;
+    letter-spacing: 0.08em;
+  }
+
+  .btn-secondary:hover {
+    border-color: #999;
+  }
+
+  footer {
+    font-size: 0.75em;
+    color: #999;
+    letter-spacing: 0.05em;
+  }
+
+  footer a {
+    color: #999;
+  }
+</style>
